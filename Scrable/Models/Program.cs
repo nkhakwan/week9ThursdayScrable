@@ -7,10 +7,10 @@ namespace WordValue
   {
     public static void Main()
     {
-      Console.WriteLine("enter a word for scrable");
-      string ScrableWord = Console.ReadLine();
+      Console.WriteLine("Man enter a word and i'll calculate its scrable value");
+      string ScrableWords = Console.ReadLine();
+      string ScrableWord = ScrableWords.ToLower();
       char [] ScrableWordArray = ScrableWord.ToCharArray();
-      Console.WriteLine($"here is our firstArray {ScrableWordArray[0]}");
       int TotalValue=0;
       for (int i=0; i<ScrableWordArray.Length; i++)
       {
@@ -18,22 +18,25 @@ namespace WordValue
         {
           if (MyWord.ValueContainer[j].Contains(ScrableWordArray[i]))
           {
-              TotalValue +=i ;
+            if (j<6)
+            {
+              TotalValue +=j ;
+            }
+            else if(j==6)
+            {
+              TotalValue +=8;
+            }
+            else if (j==7)
+            {
+              TotalValue +=10;
+            }
+              
           }
         }
       }
       Console.WriteLine($"Here is the answer{TotalValue}");
 
-          // if(MyWord.OneV.Contains(ScrableWordArray[0]))
-          // {
-          //   Console.WriteLine("yes");
-          // }
-          // else
-          // {
-          //   Console.WriteLine("no");
-          // }
-
-      // }
+          
 
 
 
