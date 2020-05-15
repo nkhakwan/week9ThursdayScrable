@@ -1,4 +1,4 @@
-# __Scrable Word Value calculator
+# __Scrable Word Value calculator_
 
 #### _Epicodus Week 9 Thursday Scrable Word Value Calculator_
 
