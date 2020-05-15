@@ -1,24 +1,23 @@
-# _Epicodus DayOfTheWeekCalculator_
+# __Scrable Word Value calculator
 
-#### _Epicodus Week 9 Tuesday FindingWeekOfTheDayPractice_
+#### _Epicodus Week 9 Thursday Scrable Word Value Calculator_
 
 #### By _**KhanSahab**_
 
 ## Description
 
-_This Project takes date, month and year and gives the day of the week_
+_This Project takes any English word and calculates its value in scrable_
 
 ## Setup/Installation Requirements
 
 * Clone this repository.
-* dotnet restore in ToDoList.ModelTests directory
-* dotnet build in ToDoList
+* dotnet build in ../Scrable directory
 * dotnet run in ToDoList
 
 
 ## Known Bugs
 
-Incomplete. So far it just calculates and throw total number of day at the console from the begininng of the year to the date input by the user
+Complete in all respect for calculating the value of any English Word. However Tests were not developed
 
 ## Support and contact details
 
@@ -26,13 +25,13 @@ _Have a bug or an issue with this application? email post_khan@Yahoo.com_
 
 ## Technologies Used
 
-* C# Interface was the new thing Today.
+* C# Classes, Dictionary and various Methods
 
 
 
-## Technical Specs
-### None really. Just go to ToDoList directory and run "dotnet build and dotnet run" . 
-### Prompt would ask you the date, month and year of your choice and give back to you the number of days occuring from the begininng of that year to the date input by the user. In it's final form it would tell the day of the week for the date a user inputs
+## Specs
+### Start: Program would prompt you to enter any English Word
+### Execution: On entering the word you'll get the value of that word in numbers
 
 
 ### License
