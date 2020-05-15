@@ -11,7 +11,7 @@ namespace WordValue
       string ScrableWords = Console.ReadLine();
       MyWord MyWordInstance = new MyWord();
       MyWordInstance.CalculateScrable(ScrableWords);
-      Console.WriteLine($"Here is the answer{MyWordInstance.TotalValue}");
+        Console.WriteLine($"Oh Wow you entered {ScrableWords} and the value of {ScrableWords} in Scrable is  {MyWordInstance.TotalValue}");
 
           
 
